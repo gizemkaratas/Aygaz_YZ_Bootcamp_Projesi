@@ -1,7 +1,7 @@
 # Ecom Beden Tavsiye Sistemi Projesi / cifar100 ile CNN Derin Öğrenme Modeli Değerlendirme
 
-## Proje Hakkında
-  Bu proje, cifar100 veri seti üzerinde görsel veriler için en uygun modellerden biri olan CNN modelini kullanarak değerlendirildi. Amaç
+## Proje Konusu ve Amacı
+cifar100 veri seti iüzerinde görsel veriler için en uygun modellerden biri olan CNN modelini kullanarak değerlendirildi. Amaç
 
 
 Her bir modelin eğitim ve test doğruluğu, F1 skoru, hatırlama ve kesinlik gibi metrikler kullanılarak değerlendirilmiştir.
@@ -11,37 +11,16 @@ Her bir modelin eğitim ve test doğruluğu, F1 skoru, hatırlama ve kesinlik gi
 
 - Kurulum
 - Veri Seti
-- Kullanılan Yöntemler
-- Sonuçlar
-- Tartışma ve Değerlendirme
--   Örnek Uygulama
 - Görseller
+- CNN ile Model Eğitimi
+- Tartışma ve Değerlendirme
+- Örnek Uygulama
+- Sonuç
 
-## Kurulum
+## Proje Çalıştırma 
 
-Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
+Proje colab üzerinde yazıldığı için ipy dosyasını tıklayarak direkt colab üzerinde aç sekmesinde çalıştırabilirsiniz.
 
-### 1.Depoyu Klonlayın:
-
-```ruby
-git clone https://github.com/sisenn/Aygaz-Yapay-Zeka-Proje-Bootcamp/tree/main
-cd fashion-mnist-ml-comparison
-
-```
-### 2.Gerekli Kütüphaneleri Yükleyin:
-
-```ruby
-pip install -r requirements.txt
-```
-
-### 3.Jupyter Notebook'u Başlatın:
-
-```ruby
-jupyter notebook
-```
-### 4.Notebook'u Açın ve Çalıştırın:
-
-fashion_mnist_comparison.ipynb dosyasını açın ve hücreleri sırasıyla çalıştırın.
 
 ## Veri Seti
 
@@ -58,25 +37,12 @@ Fashion MNIST, 10 farklı moda ürünü sınıfına ait 70,000 gri tonlamalı g�
 - Çanta
 - Çizme
 
-## Kullanılan Yöntemler
+## Kullanılan Yöntem
 
-### K-Nearest Neighbors (KNN):
+### K-Nearest Neighbors (CNN):
 KNN, her bir veri noktasını en yakın komşularına göre sınıflandıran basit bir algoritmadır. Bu projede, n_neighbors=5 olarak belirlenmiştir.
 
-### Random Forest:
-Random Forest, birden fazla karar ağacından oluşan bir topluluk yöntemidir. Ağaçların çoğunluk kararına göre sınıflandırma yapar.
 
-### Decision Tree:
-Decision Tree, verileri özelliklerine göre sınıflandıran ve her dalında kararlar alarak ilerleyen bir yapıdır.
-
-### Support Vector Machine (SVM):
-SVM, verileri ayıran en iyi hiper düzlemi bulmaya çalışan bir sınıflandırıcıdır.
-
-### Gradient Boosting:
-Gradient Boosting, hata oranını azaltmak için zayıf sınıflandırıcılar ekleyerek çalışan bir topluluk yöntemidir.
-
-### XGBoost:
-XGBoost, Gradient Boosting algoritmasının optimize edilmiş bir versiyonudur. Genellikle daha hızlı ve daha performanslıdır.
 
 ## Sonuçlar
 
