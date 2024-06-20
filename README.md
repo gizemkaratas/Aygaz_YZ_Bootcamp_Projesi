@@ -1,14 +1,8 @@
-# Fashion MNIST Makine Öğrenimi Modelleri Karşılaştırma Projesi
+# Ecom Beden Tavsiye Sistemi Projesi / cifar100 ile CNN Derin Öğrenme Modeli Değerlendirme
 
 ## Proje Hakkında
-  Bu proje, Fashion MNIST veri seti üzerinde çeşitli makine öğrenimi modellerinin performanslarını karşılaştırmak amacıyla yürütülmüştür. Projede kullanılan modeller şunlardır:
+  Bu proje, cifar100 veri seti üzerinde görsel veriler için en uygun modellerden biri olan CNN modelini kullanarak değerlendirildi. Amaç
 
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- Decision Tree
-- Support Vector Machine (SVM)
-- XGBoost
-- Gradient Boosting
 
 Her bir modelin eğitim ve test doğruluğu, F1 skoru, hatırlama ve kesinlik gibi metrikler kullanılarak değerlendirilmiştir.
 
@@ -20,6 +14,7 @@ Her bir modelin eğitim ve test doğruluğu, F1 skoru, hatırlama ve kesinlik gi
 - Kullanılan Yöntemler
 - Sonuçlar
 - Tartışma ve Değerlendirme
+-   Örnek Uygulama
 - Görseller
 
 ## Kurulum
