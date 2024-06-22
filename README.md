@@ -35,26 +35,26 @@ CIFAR-100 veri kümesi, 100 sınıfa ayrılmış 60.000 görüntüden oluşmakta
 
 CIFAR-100 veri kümesindeki tüm üst sınıflar ve o sınıflara ait alt sınıflar şunlardır:
 
--Suda Yaşayan Memeliler: Kunduz, Yunus, Su samuru, Fok, Balina
--Balık: Akvaryum balıkları, Yassı balık, Işın, Köpekbalığı, Alabalık
--Çiçekler: Orkideler, Gelincikler, Güller, Ayçiçeği, Laleler
--Gıda Kapları: Şişeler, Kaseler, Kutular, Bardaklar, Tabaklar
--Meyve ve Sebzeler: Elmalar, Mantarlar, Portakallar, Armutlar, Tatlı biberler
--Evdeki Elektrikli Cihazlar: Saat, Bilgisayar klavyesi, Lamba, Telefon, Televizyon
--Ev Eşyası: Yatak, Sandalye, Kanepe, Masa, Gardırop
--Haşarat: Arı, Böcek, Kelebek, Tırtıl, Hamamböceği
--Büyük Etoburlar: Ayı, Leopar, Aslan, Kaplan, Kurt
--İnsan Yapımı Büyük Dış Mekan Eşyaları: Köprü, Kale, Ev, Yol, Gökdelen
--Büyük Doğal Dış Mekan Sahneleri: Bulut, Orman, Dağ, Ova, Deniz
--Büyük Omnivorlar ve Otçullar: Deve, Sığır, Şempanze, Fil, Kanguru
--Orta Boy Memeliler: Tilki, Kirpi, Keseli sıçan, Rakun, Kokarca
--Böcek Olmayan Omurgasızlar: Yengeç, Istakoz, Salyangoz, Örümcek, Solucan
--İnsanlar: Bebek, Erkek Çocuk, Kız Çocuk, Erkek , Kadın
--Sürüngenler: Timsah, Dinozor, Kertenkele, Yılan, Kaplumbağa
--Küçük Memeliler: Hamster, Fare, Tavşan, Kır faresi, Sincap
--Ağaçlar: Akçaağaç, Meşe, Palmiye, Çam, Söğüt
--Araçlar 1: Bisiklet, Otobüs, Motosiklet, Kamyonet, Tren
--Araçlar 2: Çim biçme makinesi, Roket, Tramvay, Tank, Traktör
+- Suda Yaşayan Memeliler: Kunduz, Yunus, Su samuru, Fok, Balina
+- Balık: Akvaryum balıkları, Yassı balık, Işın, Köpekbalığı, Alabalık
+- Çiçekler: Orkideler, Gelincikler, Güller, Ayçiçeği, Laleler
+- Gıda Kapları: Şişeler, Kaseler, Kutular, Bardaklar, Tabaklar
+- Meyve ve Sebzeler: Elmalar, Mantarlar, Portakallar, Armutlar, Tatlı biberler
+- Evdeki Elektrikli Cihazlar: Saat, Bilgisayar klavyesi, Lamba, Telefon, Televizyon
+- Ev Eşyası: Yatak, Sandalye, Kanepe, Masa, Gardırop
+- Haşarat: Arı, Böcek, Kelebek, Tırtıl, Hamamböceği
+- Büyük Etoburlar: Ayı, Leopar, Aslan, Kaplan, Kurt
+- İnsan Yapımı Büyük Dış Mekan Eşyaları: Köprü, Kale, Ev, Yol, Gökdelen
+- Büyük Doğal Dış Mekan Sahneleri: Bulut, Orman, Dağ, Ova, Deniz
+- Büyük Omnivorlar ve Otçullar: Deve, Sığır, Şempanze, Fil, Kanguru
+- Orta Boy Memeliler: Tilki, Kirpi, Keseli sıçan, Rakun, Kokarca
+- Böcek Olmayan Omurgasızlar: Yengeç, Istakoz, Salyangoz, Örümcek, Solucan
+- İnsanlar: Bebek, Erkek Çocuk, Kız Çocuk, Erkek , Kadın
+- Sürüngenler: Timsah, Dinozor, Kertenkele, Yılan, Kaplumbağa
+- Küçük Memeliler: Hamster, Fare, Tavşan, Kır faresi, Sincap
+- Ağaçlar: Akçaağaç, Meşe, Palmiye, Çam, Söğüt
+- Araçlar 1: Bisiklet, Otobüs, Motosiklet, Kamyonet, Tren
+- Araçlar 2: Çim biçme makinesi, Roket, Tramvay, Tank, Traktör
 
 ## Metod
 
