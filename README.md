@@ -10,7 +10,7 @@ Kullanıcı tarafından yüklenen fotoğrafın insan olup olmadığının tespit
 - 3- Yüklenen fotoğraf analiz edilerek vücut tipinin tahmin edilmesi
 - 4- Tavsiye edilen ürünle yüklenen fotoğrafın birleştirilerek müşterinin ürünü direkt kendi üstünde görmesinin sağlanması.
 
-Bu projede Ana Projenin İlk Adımı olan CNN Modeli ile Kullanıcının Yüklediği Fotoğrafın Değerlendirilmesi'ni gerçekleştireceğiz.
+Bu projede Ana Projenin İlk Adımı olan CNN Modeli ile Kullanıcının Yüklediği Fotoğrafın Değerlendirilmesini gerçekleştireceğiz.
 
 # CNN Modeli ile Kullanıcının Yüklediği Fotoğrafın Değerlendirilmesi
 
