@@ -57,19 +57,39 @@ CIFAR-100 veri kümesindeki tüm üst sınıflar ve o sınıflara ait alt sını
 - Araçlar 2: Çim biçme makinesi, Roket, Tramvay, Tank, Traktör
 
 ## Metod
+cifar100 veri seti çok fazla sınıf barındırdığı için bu kadar sınıf ile eğitilen modelin spesifik tek bir alt ya da üst sınıfı tahminleme doğruluk oranının çok düşük olmasını bekleriz, hem eğitilmesi uzun zamanımızı alır hem de sonuçları güven vermeyecek kadar düşük olacaktır . Bu sebeple veri seti projenin amacı doğrultusunda yeniden sınıflandırıldı. Projenin ilk adımındaki amaç kullanıcı tarafından yüklenen görselin insan olup olmadığının tahminlemesini yapmaktır. Bu sebeple veri seti aşağıdaki şekilde bölünmüştür:
+- 1 : İnsan Olanlar ==> [2, 11, 35, 41, 46, 98] kız bebek, erkek bebek, kız çocuk,erkek çocuk,kadın,erkek 
+  
+- 0 : İnsan Olmayanlar ==> insan labelları haricindeki tüm label etiketleri
+
+bu şekilde ikiye ayrılan veri setinin insan olan ve olmayan olarak sınıflandırarak doğruluk oranının çok daha yüksek çıkmasını sağlanmıştır. İnsan verileri ve diğer veriler arasındaki dengesizlik giderilerek yüksek tahmin kabiliyeti elde edilmiştir.
 
 ## Kullanılan Model
 
+### CNN (Convolutional Neural Network)
+Özellikle görsel verilerle çalışmak için tasarlandığı için bu projede CNN derin öğrenme modeli kullanılmıştır.
+- CNN Nedir?
+CNN, görsel veri analizi için tasarlanmış bir yapay sinir ağı türüdür. Görüntü işleme problemlerinde başarılı olan bu model, özellikle görüntü sınıflandırma, nesne tanıma, yüz tanıma, çizgi çekme gibi görevlerde kullanılır. CNN'ler, verilerdeki hiyerarşik özellikleri öğrenme yeteneğine sahiptir.
+
+- Neden Görsel Verilerde Kullanılır?
+Yapısal Özelliklerin İncelenmesi: Görüntülerdeki yapısal özellikler (kenarlar, köşeler, desenler vb.) CNN'ler tarafından öğrenilebilir. Bu özellikler, nesne tanıma ve sınıflandırmada önemlidir.
+Ölçek Uyumlu Modelleme: CNN'ler, görüntülerdeki özelliklerin ölçek değişikliklerine karşı dayanıklıdır. Bu, farklı boyutlardaki nesneleri tanımak için idealdir.
+Bölgesel Özelliklerin İncelenmesi: CNN'ler, görüntülerin farklı bölgelerindeki özellikleri öğrenebilir. Bu, nesne tespiti gibi görevler için gereklidir.
+Karmaşık Modelleme: Görüntüler genellikle karmaşık yapılar içerir. CNN'ler, bu karmaşıklığı öğrenebilir ve yüksek doğrulukla tahminlerde bulunabilir.
+- Önemi
+Yüksek Doğruluk: CNN'ler, genellikle görüntü işleme görevlerinde yüksek doğruluk sağlar. Bu nedenle, sınıflandırma, tanıma ve tespit gibi alanlarda tercih edilirler.
+Otomatik Özellik Çıkarma: CNN'ler, özellikleri otomatik olarak çıkarabilir, bu da veri mühendisliği gereksinimini azaltır ve modelin daha genelleştirilmiş olmasını sağlar.
+Genelleme Yeteneği: CNN'ler, verilerdeki genel desenleri öğrenebilir ve farklı görüntülerde benzer desenleri tanıyabilir. Bu, farklı veri setleriyle çalışırken genelleme yeteneği sağlar.
+
 ## Kullanılan Değerlendirme Metriği
-## Sonuç
-## Tartışma ve Değerlendirme
-## Kaynakça
-
-
-
+Bu projede F1 Score ve Accuracy değerlendirme metrikleri kullanılmıştır.
 ## Sonuç
 
 | Model | Eğitim Doğruluğu | Test Doğruluğu | F1 Skoru | Recall | Precision |
 |----------|----------|----------|----------|----------|----------|
 | CNN |0.9730 | 0.9754 | 0.9722 | 0.9754 | 0.9778 |
+
+
+
+
 
