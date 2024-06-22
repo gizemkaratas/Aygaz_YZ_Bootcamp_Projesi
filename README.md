@@ -5,10 +5,10 @@ Kullanıcı tarafından yüklenen fotoğrafın insan olup olmadığının tespit
 
 ## Proje Adımları:
 
--1- Yüklenen fotoğrafın insana ait olup olmadığının tespiti
--2- Yüklenen fotoğrafta işaretleme yöntemi ile beden ölçülerinin tahmin edilmesi
--3- Yüklenen fotoğraf analiz edilerek vücut tipinin tahmin edilmesi
--4- Tavsiye edilen ürünle yüklenen fotoğrafın birleştirilerek müşterinin ürünü direkt kendi üstünde görmesinin sağlanması.
+- 1- Yüklenen fotoğrafın insana ait olup olmadığının tespiti
+- 2- Yüklenen fotoğrafta işaretleme yöntemi ile beden ölçülerinin tahmin edilmesi
+- 3- Yüklenen fotoğraf analiz edilerek vücut tipinin tahmin edilmesi
+- 4- Tavsiye edilen ürünle yüklenen fotoğrafın birleştirilerek müşterinin ürünü direkt kendi üstünde görmesinin sağlanması.
 
 Bu projede Ana Projenin İlk Adımı olan CNN Modeli ile Kullanıcının Yüklediği Fotoğrafın Değerlendirilmesi'ni gerçekleştireceğiz.
 
