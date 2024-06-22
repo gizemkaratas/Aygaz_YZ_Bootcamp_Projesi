@@ -18,9 +18,6 @@ Bu projede Ana Projenin İlk Adımı olan CNN Modeli ile Kullanıcının Yükled
 
 - Veri Seti
 - Metod
-- Görselleştirme
-- CNN ile Model Eğitimi
-- Örnek Uygulama
 - Sonuç
 - Tartışma ve Değerlendirme
 - Kaynakça
@@ -84,6 +81,8 @@ Genelleme Yeteneği: CNN'ler, verilerdeki genel desenleri öğrenebilir ve farkl
 ## Kullanılan Değerlendirme Metriği
 Bu projede F1 Score ve Accuracy değerlendirme metrikleri kullanılmıştır.
 ## Sonuç
+
+Kullanıcıdan alınan insan ve insan olmayan örnek görselleri doğru tahmin etmiştir. 
 
 | Model | Eğitim Doğruluğu | Test Doğruluğu | F1 Skoru | Recall | Precision |
 |----------|----------|----------|----------|----------|----------|
