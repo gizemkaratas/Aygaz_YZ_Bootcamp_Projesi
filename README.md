@@ -18,9 +18,8 @@ Bu projede Ana Projenin İlk Adımı olan CNN Modeli ile Kullanıcının Yükled
 
 - Veri Seti
 - Metod
+- Model
 - Sonuç
-- Tartışma ve Değerlendirme
-- Kaynakça
 
 ## Proje Kurulumu
 
